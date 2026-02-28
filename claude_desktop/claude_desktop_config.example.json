@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "rag_vector": {
+      "command": "python",
+      "args": ["mcp_servers/rag_vector/server.py"]
+    },
+    "sql": {
+      "command": "python",
+      "args": ["mcp_servers/sql/server.py"]
+    },
+    "llm_proxy": {
+      "command": "python",
+      "args": ["mcp_servers/llm_proxy/server.py"]
+    }
+  }
+}

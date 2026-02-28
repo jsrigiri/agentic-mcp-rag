@@ -1,0 +1,1 @@
+print("OpenAI Agents SDK Placeholder - Connect MCP servers here.")

@@ -1,0 +1,14 @@
+llms:
+  fast:
+    provider: openai
+    model: gpt-4.1-mini
+  smart:
+    provider: anthropic
+    model: claude-3-7-sonnet
+  judge:
+    provider: openai
+    model: gpt-4.1-mini
+
+policy:
+  default_k: 6
+  max_loops: 2
